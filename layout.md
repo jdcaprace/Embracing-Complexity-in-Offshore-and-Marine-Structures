@@ -1,0 +1,13 @@
+abstract.tex
+Federal_University_o.tex
+sectionIntroduction_.tex
+figures/FigFrequency1/default_figure.png
+sectionBackground_In.tex
+sectionNeeds_address.tex
+sectionObjectives_Du.tex
+sectionThe_complexit.tex
+sectionCase_study_Co.tex
+figures/1/default_figure.png
+The_main_outcome_of.tex
+sectionConclusions_S.tex
+sectionFuture_work_A.tex
