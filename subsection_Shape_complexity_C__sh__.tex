@@ -1,0 +1,40 @@
+\subsection{Shape complexity –- $C_{sh}$}
+The construction of ships obviously involves a large number of steel plates and shapes which form the hull surface panels. These plates and shapes need to be formed so that the hull shape can be developed.
+
+
+The forming complexity depends largely of the curvature of the plates, \cite{parsons1999scalar}. Two parameters have been used to classify the forming of the hull plates: the Gaussian curvature $K$ and the ratio between the two principal curvatures $R$. The Gaussian curvature is defined as the product of the two principal curvatures (see equation \ref{eq_gaussiancurv}) while $R$ is defined as the ratio between the two principal curvatures (see equation \ref{eq_ratcurv}).
+	
+\begin{equation}
+\label{eq_gaussiancurv}
+K = k_1 \times k_2
+\end{equation}
+	
+\begin{equation}
+\label{eq_ratcurv}
+R = \frac{k_1}{k_2}
+\end{equation}
+	
+Firstly, if the Gaussian curvature is positive, which means $k_1$ and $k_2 > 0$ or $k_1$ and $k_2 < 0$, the shape of the surface is either convex or concave. Where $K$ is zero, the surface is ruled, developable or planar. In a planar surface, both $k_1$ and $k_2$ are zero; while in a ruled surface, either $k_1$ or $k_2$ is zero. Where $K$ is negative, the shape of the surface is saddle-shaped involving reverse or opposite curvature in two directions.
+
+
+Secondly, if the ratio $R$ between the two principal curvatures is low, it means that a double curvature is involved, while when the $R$ is high it means a curvature in only one direction is involved.
+
+
+The curvature can be evaluated both on the centroid of the plate (for low accuracy measure) or on 225 points (grid of $15 \times 15$) for each hull plate. Later, the average of the values can be evaluated to classify the forming complexity of the plates. Table \ref{tabcompshape} gives the different values of the curvature coefficient in function of the values of the Gaussian curvature $K$ and the ratio between the principal curvatures $R$.
+
+
+\begin{table}
+\caption{Values of the curvature coefficient $c$ for the assessment of the shape complexity}
+\label{tabcompshape}
+\begin{center}
+\include{tablecompshape}
+\end{center}
+\end{table}
+
+
+Shape complexity is given by equation 9 where $c$ represents the curvature coefficient given in Table \ref{tabcompshape} and $n$ the number of analysed points of each steel plates. It should be noted that the shape complexity only have been assessed for curve plates parts.
+
+
+\begin{equation}
+C_{sh} = \frac{1}{n} \sum_{i=1}^{n} c_i
+\end{equation}
