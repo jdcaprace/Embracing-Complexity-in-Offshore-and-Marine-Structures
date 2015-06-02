@@ -7,6 +7,7 @@ sectionObjectives_Du.tex
 sectionThe_complexit.tex
 subsection_Compactness_complexity_C__cp__.tex
 subsection_Assembly_complexity_C__as__.tex
+subsection_Shape_complexity_C__sh__.tex
 sectionCase_study_Co.tex
 figures/1/default_figure.png
 The_main_outcome_of.tex
