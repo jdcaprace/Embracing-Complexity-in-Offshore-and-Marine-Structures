@@ -1,7 +1,6 @@
 abstract.tex
 sectionIntroduction_.tex
 figures/FigFrequency1/FigFrequency1.jpg
-DOCTYPE_html_meta_charset_utf__.html
 sectionBackground_In.tex
 sectionNeeds_address.tex
 sectionObjectives_Du.tex
