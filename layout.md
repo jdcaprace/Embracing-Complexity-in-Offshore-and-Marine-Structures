@@ -5,6 +5,7 @@ sectionBackground_In.tex
 sectionNeeds_address.tex
 sectionObjectives_Du.tex
 sectionThe_complexit.tex
+subsection_Compactness_complexity_C__cp__.tex
 sectionCase_study_Co.tex
 figures/1/default_figure.png
 The_main_outcome_of.tex
