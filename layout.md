@@ -1,6 +1,6 @@
 abstract.tex
 sectionIntroduction_.tex
-figures/FigFrequency1/default_figure.png
+figures/FigFrequency1/FigFrequency1.jpg
 sectionBackground_In.tex
 sectionNeeds_address.tex
 sectionObjectives_Du.tex
