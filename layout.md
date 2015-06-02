@@ -1,5 +1,4 @@
 abstract.tex
-Federal_University_o.tex
 sectionIntroduction_.tex
 figures/FigFrequency1/default_figure.png
 sectionBackground_In.tex
