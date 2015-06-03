@@ -2,20 +2,20 @@
 The mounting complexity measure in a ship's structure is represented by measuring the level of diversity and interconnectedness of the parts. The greater the variability in the design parameters, becomes the design more complex. Therefore, a modular architecture ship where their subsystems have less functional interdependencies, should have less coupling complexity that a ship with an integral architecture. It notes that high performance is not necessarily a result of the complexity. In brief,  increased interdependence of the various modules and assemblies in the vessel is not necessarily translated into better ship performance.
 
 
-\cite{ceccatto1988complexity},  and in a recent review of \cite{Shannon01} was defined the method used to establish a quantitative measure of assembly complexity, this research is based on the definition of the complexity of hierarchical systems, the equation \ref{Eq_ComplexityAss} gives the formulation of the assembly complexity.
+\cite{ceccatto1988complexity},  and in a recent review of \cite{Shannon01} was defined the method used to establish a quantitative measure of assembly complexity, this research is based on the definition of the complexity of hierarchical systems, the equation \ref{eqn:Eq_ComplexityAss} gives the formulation of the assembly complexity.
 
 
 \begin{equation}
 C_{as} = C\left[ \bigcup_{i=1}^n T_i \right] = \sum_{i=1}^{n} C(T_{i}) + N_T \log _2(2^{k_T}-1)
-\label{Eq_ComplexityAss}
+\label{eqn:Eq_ComplexityAss}
 \end{equation}
 
 
-\begin{tabularx}
+\begin{tabular}{lll}
 where & $C_{as}$ & is the assembly complexity of a forest composed of $n$ non-isomorphic trees,\\
 & $\sum_{i=1}^{n} C(T_{i})$ & is the complexity of the $n$ non-isomorphic sub-trees,\\
 & $N_T$ & is the number of elements at the lower level of the tree,\\
 & $k_T$ & is the number of branches non-isomorphic.
-\end{tabularx}
+\end{tabular}
 
 
